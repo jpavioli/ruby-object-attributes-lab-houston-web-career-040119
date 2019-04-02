@@ -3,15 +3,15 @@ class Person
     @name
   end
   
-  def breed
-    @breed 
+  def job
+    @job 
   end
   
   def name=(new_name)
     @name = new_name
   end 
   
-  def breed=(new_breed)
-    @breed = new_breed
+  def job=(new_job)
+    @job = new_job
   end
 end 
